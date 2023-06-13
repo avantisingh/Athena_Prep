@@ -11,6 +11,13 @@
 		BD90D2482A38BB6A00B84DD1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D2472A38BB6A00B84DD1 /* ContentView.swift */; };
 		BD90D24A2A38BB6D00B84DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD90D2492A38BB6D00B84DD1 /* Assets.xcassets */; };
 		BD90D24D2A38BB6D00B84DD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD90D24C2A38BB6D00B84DD1 /* Preview Assets.xcassets */; };
+		BD90D2542A38BFF500B84DD1 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D2532A38BFF500B84DD1 /* Resources.swift */; };
+		BD90D2562A38C03D00B84DD1 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D2552A38C03D00B84DD1 /* Journal.swift */; };
+		BD90D2582A38C07000B84DD1 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D2572A38C07000B84DD1 /* ToDo.swift */; };
+		BD90D25A2A38C0B800B84DD1 /* Creators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D2592A38C0B800B84DD1 /* Creators.swift */; };
+		BD90D25C2A38C16200B84DD1 /* Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D25B2A38C16200B84DD1 /* Apps.swift */; };
+		BD90D25E2A38C1AA00B84DD1 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D25D2A38C1AA00B84DD1 /* General.swift */; };
+		BD90D2602A38C1F200B84DD1 /* Packing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D25F2A38C1F200B84DD1 /* Packing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		BD90D2472A38BB6A00B84DD1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD90D2492A38BB6D00B84DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD90D24C2A38BB6D00B84DD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD90D2532A38BFF500B84DD1 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		BD90D2552A38C03D00B84DD1 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
+		BD90D2572A38C07000B84DD1 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		BD90D2592A38C0B800B84DD1 /* Creators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creators.swift; sourceTree = "<group>"; };
+		BD90D25B2A38C16200B84DD1 /* Apps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps.swift; sourceTree = "<group>"; };
+		BD90D25D2A38C1AA00B84DD1 /* General.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
+		BD90D25F2A38C1F200B84DD1 /* Packing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Packing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +67,13 @@
 			children = (
 				BD90D2452A38BB6A00B84DD1 /* Athena_PrepApp.swift */,
 				BD90D2472A38BB6A00B84DD1 /* ContentView.swift */,
+				BD90D2592A38C0B800B84DD1 /* Creators.swift */,
+				BD90D2572A38C07000B84DD1 /* ToDo.swift */,
+				BD90D25F2A38C1F200B84DD1 /* Packing.swift */,
+				BD90D25B2A38C16200B84DD1 /* Apps.swift */,
+				BD90D25D2A38C1AA00B84DD1 /* General.swift */,
+				BD90D2552A38C03D00B84DD1 /* Journal.swift */,
+				BD90D2532A38BFF500B84DD1 /* Resources.swift */,
 				BD90D2492A38BB6D00B84DD1 /* Assets.xcassets */,
 				BD90D24B2A38BB6D00B84DD1 /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD90D25A2A38C0B800B84DD1 /* Creators.swift in Sources */,
+				BD90D2542A38BFF500B84DD1 /* Resources.swift in Sources */,
+				BD90D2582A38C07000B84DD1 /* ToDo.swift in Sources */,
+				BD90D25C2A38C16200B84DD1 /* Apps.swift in Sources */,
 				BD90D2482A38BB6A00B84DD1 /* ContentView.swift in Sources */,
 				BD90D2462A38BB6A00B84DD1 /* Athena_PrepApp.swift in Sources */,
+				BD90D2602A38C1F200B84DD1 /* Packing.swift in Sources */,
+				BD90D25E2A38C1AA00B84DD1 /* General.swift in Sources */,
+				BD90D2562A38C03D00B84DD1 /* Journal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
