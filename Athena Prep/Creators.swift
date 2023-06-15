@@ -15,7 +15,7 @@ struct Creators: View {
         Text("About this App")
           .font(.custom("Vergilia", size: 20))
         Text("The title of this app, Athena Prep, comes from the Greek Goddess Athena, who is known for being the goddess of knowledge and intelligence. We therefore thought it fitting to the function of our app, helping the user acquire knowledge on the college process.")
-          .font(.custom("Brandon_reg", size: 20))
+          .font(.custom("BrandonGrotesque-Regular", size: 20))
           .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
       }
     }

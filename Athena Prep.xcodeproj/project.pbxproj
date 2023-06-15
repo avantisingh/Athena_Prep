@@ -13,11 +13,17 @@
 		BD90D24D2A38BB6D00B84DD1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD90D24C2A38BB6D00B84DD1 /* Preview Assets.xcassets */; };
 		BD90D2542A38BFF500B84DD1 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D2532A38BFF500B84DD1 /* Resources.swift */; };
 		BD90D2562A38C03D00B84DD1 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D2552A38C03D00B84DD1 /* Journal.swift */; };
-		BD90D2582A38C07000B84DD1 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D2572A38C07000B84DD1 /* ToDo.swift */; };
 		BD90D25A2A38C0B800B84DD1 /* Creators.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D2592A38C0B800B84DD1 /* Creators.swift */; };
 		BD90D25C2A38C16200B84DD1 /* Apps.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D25B2A38C16200B84DD1 /* Apps.swift */; };
 		BD90D25E2A38C1AA00B84DD1 /* General.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D25D2A38C1AA00B84DD1 /* General.swift */; };
 		BD90D2602A38C1F200B84DD1 /* Packing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD90D25F2A38C1F200B84DD1 /* Packing.swift */; };
+		BD972E8D2A3B5C460095E2F9 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD972E8C2A3B5C460095E2F9 /* ToDoItem.swift */; };
+		BD972E8F2A3B5C8A0095E2F9 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD972E8E2A3B5C8A0095E2F9 /* NewToDoView.swift */; };
+		BD972E912A3B5D4A0095E2F9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD972E902A3B5D4A0095E2F9 /* Persistence.swift */; };
+		BD972E942A3B5DDC0095E2F9 /* Athena Prep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD972E922A3B5DDC0095E2F9 /* Athena Prep.xcdatamodeld */; };
+		BD972E962A3B623C0095E2F9 /* ToDoButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD972E952A3B623C0095E2F9 /* ToDoButtons.swift */; };
+		BD972E992A3B7AA50095E2F9 /* BrandonGrotesque-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD972E982A3B7AA50095E2F9 /* BrandonGrotesque-Regular.ttf */; };
+		BD972E9B2A3B7AD80095E2F9 /* Vergilia-mL6aa.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD972E9A2A3B7AD80095E2F9 /* Vergilia-mL6aa.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,11 +34,18 @@
 		BD90D24C2A38BB6D00B84DD1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD90D2532A38BFF500B84DD1 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		BD90D2552A38C03D00B84DD1 /* Journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
-		BD90D2572A38C07000B84DD1 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		BD90D2592A38C0B800B84DD1 /* Creators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creators.swift; sourceTree = "<group>"; };
 		BD90D25B2A38C16200B84DD1 /* Apps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apps.swift; sourceTree = "<group>"; };
 		BD90D25D2A38C1AA00B84DD1 /* General.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = General.swift; sourceTree = "<group>"; };
 		BD90D25F2A38C1F200B84DD1 /* Packing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Packing.swift; sourceTree = "<group>"; };
+		BD972E8C2A3B5C460095E2F9 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BD972E8E2A3B5C8A0095E2F9 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BD972E902A3B5D4A0095E2F9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BD972E932A3B5DDC0095E2F9 /* Athena Prep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Athena Prep.xcdatamodel"; sourceTree = "<group>"; };
+		BD972E952A3B623C0095E2F9 /* ToDoButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoButtons.swift; sourceTree = "<group>"; };
+		BD972E982A3B7AA50095E2F9 /* BrandonGrotesque-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Regular.ttf"; sourceTree = "<group>"; };
+		BD972E9A2A3B7AD80095E2F9 /* Vergilia-mL6aa.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Vergilia-mL6aa.ttf"; sourceTree = "<group>"; };
+		BD972E9C2A3B7AF20095E2F9 /* Athena-Prep-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Athena-Prep-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,17 +78,23 @@
 		BD90D2442A38BB6A00B84DD1 /* Athena Prep */ = {
 			isa = PBXGroup;
 			children = (
+				BD972E9C2A3B7AF20095E2F9 /* Athena-Prep-Info.plist */,
+				BD972E972A3B7A820095E2F9 /* Custom Fonts */,
 				BD90D2452A38BB6A00B84DD1 /* Athena_PrepApp.swift */,
 				BD90D2472A38BB6A00B84DD1 /* ContentView.swift */,
 				BD90D2592A38C0B800B84DD1 /* Creators.swift */,
-				BD90D2572A38C07000B84DD1 /* ToDo.swift */,
 				BD90D25F2A38C1F200B84DD1 /* Packing.swift */,
 				BD90D25B2A38C16200B84DD1 /* Apps.swift */,
 				BD90D25D2A38C1AA00B84DD1 /* General.swift */,
+				BD972E952A3B623C0095E2F9 /* ToDoButtons.swift */,
+				BD972E8C2A3B5C460095E2F9 /* ToDoItem.swift */,
+				BD972E8E2A3B5C8A0095E2F9 /* NewToDoView.swift */,
+				BD972E902A3B5D4A0095E2F9 /* Persistence.swift */,
 				BD90D2552A38C03D00B84DD1 /* Journal.swift */,
 				BD90D2532A38BFF500B84DD1 /* Resources.swift */,
 				BD90D2492A38BB6D00B84DD1 /* Assets.xcassets */,
 				BD90D24B2A38BB6D00B84DD1 /* Preview Content */,
+				BD972E922A3B5DDC0095E2F9 /* Athena Prep.xcdatamodeld */,
 			);
 			path = "Athena Prep";
 			sourceTree = "<group>";
@@ -86,6 +105,15 @@
 				BD90D24C2A38BB6D00B84DD1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD972E972A3B7A820095E2F9 /* Custom Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BD972E982A3B7AA50095E2F9 /* BrandonGrotesque-Regular.ttf */,
+				BD972E9A2A3B7AD80095E2F9 /* Vergilia-mL6aa.ttf */,
+			);
+			path = "Custom Fonts";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +174,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD972E992A3B7AA50095E2F9 /* BrandonGrotesque-Regular.ttf in Resources */,
 				BD90D24D2A38BB6D00B84DD1 /* Preview Assets.xcassets in Resources */,
 				BD90D24A2A38BB6D00B84DD1 /* Assets.xcassets in Resources */,
+				BD972E9B2A3B7AD80095E2F9 /* Vergilia-mL6aa.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,13 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD972E8F2A3B5C8A0095E2F9 /* NewToDoView.swift in Sources */,
+				BD972E962A3B623C0095E2F9 /* ToDoButtons.swift in Sources */,
 				BD90D25A2A38C0B800B84DD1 /* Creators.swift in Sources */,
 				BD90D2542A38BFF500B84DD1 /* Resources.swift in Sources */,
-				BD90D2582A38C07000B84DD1 /* ToDo.swift in Sources */,
+				BD972E8D2A3B5C460095E2F9 /* ToDoItem.swift in Sources */,
 				BD90D25C2A38C16200B84DD1 /* Apps.swift in Sources */,
 				BD90D2482A38BB6A00B84DD1 /* ContentView.swift in Sources */,
+				BD972E942A3B5DDC0095E2F9 /* Athena Prep.xcdatamodeld in Sources */,
 				BD90D2462A38BB6A00B84DD1 /* Athena_PrepApp.swift in Sources */,
 				BD90D2602A38C1F200B84DD1 /* Packing.swift in Sources */,
+				BD972E912A3B5D4A0095E2F9 /* Persistence.swift in Sources */,
 				BD90D25E2A38C1AA00B84DD1 /* General.swift in Sources */,
 				BD90D2562A38C03D00B84DD1 /* Journal.swift in Sources */,
 			);
@@ -297,6 +331,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Athena Prep/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Athena-Prep-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -325,6 +360,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Athena Prep/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Athena-Prep-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -365,6 +401,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD972E922A3B5DDC0095E2F9 /* Athena Prep.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD972E932A3B5DDC0095E2F9 /* Athena Prep.xcdatamodel */,
+			);
+			currentVersion = BD972E932A3B5DDC0095E2F9 /* Athena Prep.xcdatamodel */;
+			path = "Athena Prep.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BD90D23A2A38BB6A00B84DD1 /* Project object */;
 }

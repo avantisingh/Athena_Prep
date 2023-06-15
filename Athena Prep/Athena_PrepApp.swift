@@ -7,11 +7,14 @@
 
 import SwiftUI
 
+import SwiftUI
+
 @main
 struct Athena_PrepApp: App {
+    let persistenceController = PersistenceController.shared
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
